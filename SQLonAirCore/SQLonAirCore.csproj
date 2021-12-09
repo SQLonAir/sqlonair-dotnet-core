@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>SQL on Air, by Effortless API</Authors>
+    <Company>An Abstract Level, LLC</Company>
+    <Product>SQLonAir Core .NET Library</Product>
+    <Description>This library can be used to define SQL on Air calculated fields natively in any .NET project.  The SSoT.me command:
+&gt; ssotme dotnet-to-sqlonair-csv -i library.dll
+
+Extracts a SQL on Air fieldmap from a DLL notated with the SQLonAir .net Attributes defined in this package.  These include [SQLonAirLookup(...)], [SQLonAirComputation(...)], and [SQLonAirAggretation(...)].</Description>
+    <PackageId>SQLonAir.Core</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://sqlonair.com</PackageProjectUrl>
+    <PackageReleaseNotes />
+    <AssemblyVersion>0.0.0.8</AssemblyVersion>
+    <FileVersion>0.0.0.8</FileVersion>
+    <Version>0.1.08</Version>
+    <Copyright>Copyright 2021 (c) - SQLonAir.com</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/SQLonAir/sqlonair-dotnet-core</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>SQLonAir, Calculated Fields, Computed Columns, SQL Server Computed Columns</PackageTags>
+  </PropertyGroup>
+
+</Project>

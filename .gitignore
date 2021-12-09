@@ -1,0 +1,4 @@
+/SQLonAirCore/bin/**/*
+/SQLonAirCore/obj/**/*
+/SQLonAirCore/**.csproj.user
+**/.vs/**/*
