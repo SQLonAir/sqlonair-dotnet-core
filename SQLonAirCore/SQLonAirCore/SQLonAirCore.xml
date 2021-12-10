@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SQLonAirCore</name>
+    </assembly>
+    <members>
+        <member name="T:SQLonAirCore.Attributes.SQLonAirAggregationAttribute">
+            <summary>
+            The Aggregation attribute specifies how to aggregate values from the children of
+            a relationship.
+            </summary>
+        </member>
+        <member name="M:SQLonAirCore.Attributes.SQLonAirAggregationAttribute.#ctor(System.Type,System.String,System.String,System.String,System.String)">
+            <summary>
+            Aggregate a remote field, joining through the foreign key in the rmote table.
+            </summary>
+            <param name="remoteClass">The type which contains the field to be aggregated</param>
+            <param name="remoteFieldName">The name of the field to be aggregated</param>
+            <param name="joinFieldName">The name of the foreign key in the remote table which joins back to this class.</param>
+            <param name="aggregateFunction">The function to be used to aggregate the child values - such as `sum(values)`</param>
+            <param name="whereClause">A limit to be placed on the child values aggregated.</param>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.FieldType">
+            <summary>
+            The type of Calculated Field in SQL on Air
+            </summary>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.Description">
+            <summary>
+            A description of the Calculated Field
+            </summary>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.RemoteTableName">
+            <summary>
+            The name of the remote table being joined with
+            </summary>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.RemoteFieldName">
+            <summary>
+            The name of the field being aggregated or looked up
+            </summary>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.LocalJoinFieldName">
+            <summary>
+            The name of the field used to join with the remote table
+            </summary>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.Calculation">
+            <summary>
+            The Calculation, Formula or Aggregate Function to be performed
+            </summary>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.Where">
+            <summary>
+            A limit or criteria to be placed on the child values being aggregated
+            </summary>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.DataType">
+            <summary>
+            The data type of the Calculated Field
+            </summary>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.Length">
+            <summary>
+            The data length of the calculated field
+            </summary>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.Precision">
+            <summary>
+            For decimal values, the precision to store after the decimal point
+            </summary>
+        </member>
+        <member name="P:SQLonAirCore.Attributes.SQLonAirBaseAttribute.WriteOnce">
+            <summary>
+            True indicates that the value for this field should only be calculated if the current value is NULL.
+            </summary>
+        </member>
+        <member name="T:SQLonAirCore.Attributes.SQLonAirCalculationAttribute">
+            <summary>
+            A Calculation to be performed on specific fields within this class.
+            </summary>
+        </member>
+        <member name="M:SQLonAirCore.Attributes.SQLonAirCalculationAttribute.#ctor(System.String)">
+            <summary>
+            A calculation/formula
+            </summary>
+            <param name="calculation">The SQL calculation to be performed.</param>
+        </member>
+        <member name="T:SQLonAirCore.Attributes.SQLonAirLookupAttribute">
+            <summary>
+            A lookup to a field in a parent object.
+            </summary>
+        </member>
+        <member name="M:SQLonAirCore.Attributes.SQLonAirLookupAttribute.#ctor(System.Type,System.String,System.String)">
+            <summary>
+            Lookup a value in a parent object
+            </summary>
+            <param name="remoteClass">The remote object to lookup a value from</param>
+            <param name="remoteFieldName">The name of the field to lokup</param>
+            <param name="joinFieldName">The name of the field in this class which points to the parent object</param>
+        </member>
+        <member name="T:entity_framework_test2.SQLonAirManager">
+            <summary>
+            SQLonAir manager is a proxy library between the Calculated Fields in your
+            project and the SQL on Air build servers.
+            </summary>
+        </member>
+    </members>
+</doc>

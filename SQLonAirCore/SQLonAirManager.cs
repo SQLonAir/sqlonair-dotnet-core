@@ -8,7 +8,7 @@ namespace entity_framework_test2
 {
     /// <summary>
     /// SQLonAir manager is a proxy library between the Calculated Fields in your
-    /// project and the 
+    /// project and the SQL on Air build servers.
     /// </summary>
     public class SQLonAirManager
     {
