@@ -1,0 +1,168 @@
+TpTrace Verbose: 0 : 20648, 1, 2021/12/16, 15:34:59.913, 29377826435, testhost.dll, Version: 16.9.4
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:34:59.924, 29377896341, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 54701],[--endpoint, 127.0.0.1:054701],[--role, client],[--parentprocessid, 16188],[--diag, C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\coverage-tool-output\diagnostics.host.21-12-16_15-34-59_67733_5.log],[--tracelevel, 4],[--datacollectionport, 54700],[--telemetryoptedin, false]
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:34:59.926, 29377912109, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 20648, 1, 2021/12/16, 15:34:59.926, 29377913959, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener 0 with TestHostTraceListener.
+TpTrace Verbose: 0 : 20648, 1, 2021/12/16, 15:34:59.926, 29377915056, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:34:59.927, 29377921152, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '16188'
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:34:59.934, 29377997239, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:054701'
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:34:59.951, 29378161313, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:054701
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:34:59.958, 29378239717, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 54700
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:34:59.959, 29378248640, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:054701
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:34:59.961, 29378267177, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:34:59.962, 29378280392, testhost.dll, Trying to connect to server on socket : 127.0.0.1:54700 
+TpTrace Verbose: 0 : 20648, 1, 2021/12/16, 15:34:59.963, 29378283546, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 20648, 10, 2021/12/16, 15:34:59.965, 29378304912, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 20648, 10, 2021/12/16, 15:34:59.965, 29378305940, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:34:59.965, 29378310213, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:54701 localEndPoint: [::ffff:127.0.0.1]:54702
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:34:59.966, 29378311288, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:34:59.966, 29378314463, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:54701 localEndPoint: [::ffff:127.0.0.1]:54702
+TpTrace Information: 0 : 20648, 11, 2021/12/16, 15:34:59.967, 29378321345, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.117, 29379828035, testhost.dll, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 5
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:35:00.150, 29380158947, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: C:\\Users\\auto1\\go\\src\\github.com\\eejai42\\sqlonair-dotnet-core\\SQLonAir.Test\\bin\\Release\\net5.0\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.21-12-16_15-34-59_67733_5.log"}}
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:35:00.151, 29380162065, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:54701 localEndPoint: [::ffff:127.0.0.1]:54702
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:35:00.151, 29380164823, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:54701 localEndPoint: [::ffff:127.0.0.1]:54702
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.157, 29380222779, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\auto1\\go\\src\\github.com\\eejai42\\sqlonair-dotnet-core\\SQLonAir.Test\\bin\\Release\\net5.0\\fine-code-coverage\\build-output\\NUnit3.TestAdapter.dll"
+]
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.157, 29380224940, testhost.dll, Execution Session Initialize.
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:35:00.172, 29380370662, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:54701 localEndPoint: [::ffff:127.0.0.1]:54702
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:35:00.172, 29380372274, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:54701 localEndPoint: [::ffff:127.0.0.1]:54702
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.175, 29380409529, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.176, 29380413168, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Users\\auto1\\go\\src\\github.com\\eejai42\\sqlonair-dotnet-core\\SQLonAir.Test\\bin\\Release\\net5.0\\fine-code-coverage\\build-output\\SQLonAir.Test.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Users\\auto1\\go\\src\\github.com\\eejai42\\sqlonair-dotnet-core\\SQLonAir.Test\\bin\\Release\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetPlatform>X64</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v5.0</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\6.0.100\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\Users\\auto1\\go\\src\\github.com\\eejai42\\sqlonair-dotnet-core\\SQLonAir.Test\\bin\\Release\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.176, 29380414614, testhost.dll, Execution started.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.178, 29380438382, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.180, 29380459060, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.181, 29380467207, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.181, 29380468025, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.185, 29380508862, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.188, 29380534486, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.188, 29380535960, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.188, 29380536682, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.188, 29380537620, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.188, 29380538950, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.190, 29380552850, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.198, 29380632793, testhost.dll, AssemblyResolver.OnResolve: NUnit3.TestAdapter: Resolving assembly.
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.202, 29380673625, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: NUnit3.TestAdapter, from path: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.206, 29380717286, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.api: Resolving assembly.
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.207, 29380726471, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine.api, from path: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\nunit.engine.api.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.215, 29380804888, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.215, 29380810402, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.216, 29380811326, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.216, 29380812085, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.216, 29380812791, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.216, 29380813471, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:35:00.218, 29380834337, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:54701 localEndPoint: [::ffff:127.0.0.1]:54702
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.221, 29380867268, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation2 TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor2
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.222, 29380872540, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.222, 29380873430, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.222, 29380874173, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.222, 29380877107, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.222, 29380877954, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.222, 29380879468, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.222, 29380880259, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.223, 29380880929, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.223, 29380881564, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.223, 29380883888, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.223, 29380889705, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.223, 29380890528, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.224, 29380891543, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.224, 29380892838, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.224, 29380893544, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.224, 29380894135, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.232, 29380976133, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.233, 29380984138, testhost.dll, TestExecutorExtensionManager: Loading executor NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.233, 29380984996, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.234, 29380996177, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.234, 29380997260, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.234, 29380997732, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.234, 29380998714, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.234, 29381000011, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.234, 29381000465, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.235, 29381001420, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.235, 29381001759, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.235, 29381002086, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.235, 29381002446, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.235, 29381003587, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.235, 29381008975, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.235, 29381009481, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.235, 29381009889, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.235, 29381010230, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.236, 29381010759, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.236, 29381011092, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.237, 29381021495, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.237, 29381022070, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.326, 29381913559, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\SQLonAir.Test.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.328, 29381938244, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.328, 29381939503, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.328, 29381939960, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.328, 29381940299, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.329, 29381941788, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.329, 29381942240, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.329, 29381942591, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.329, 29381942906, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.329, 29381943341, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.329, 29381943681, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.329, 29381944132, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.332, 29381974712, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.332, 29381975701, testhost.dll, TestPluginCache: Discoverers are 'NUnit.VisualStudio.TestAdapter.NUnit3TestDiscoverer, NUnit3.TestAdapter, Version=3.17.0.0, Culture=neutral, PublicKeyToken=4cb40d35494691ac'.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.332, 29381976197, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.332, 29381976612, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.332, 29381977004, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.332, 29381977379, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.343, 29382088789, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\SQLonAir.Test.dll'
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.351, 29382166037, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.353, 29382186033, testhost.dll, AssemblyResolver.OnResolve: nunit.engine: Resolving assembly.
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.354, 29382197280, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine, from path: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\nunit.engine.dll
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.354, 29382199117, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.core: Resolving assembly.
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.355, 29382209078, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine.core, from path: C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\nunit.engine.core.dll
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.368, 29382339443, testhost.dll, NUnit Adapter 3.17.0.0: Test execution started
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.369, 29382340986, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"NUnit Adapter 3.17.0.0: Test execution started"}}
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.404, 29382693143, testhost.dll, Running all tests in C:\Users\auto1\go\src\github.com\eejai42\sqlonair-dotnet-core\SQLonAir.Test\bin\Release\net5.0\fine-code-coverage\build-output\SQLonAir.Test.dll
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.404, 29382694554, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Running all tests in C:\\Users\\auto1\\go\\src\\github.com\\eejai42\\sqlonair-dotnet-core\\SQLonAir.Test\\bin\\Release\\net5.0\\fine-code-coverage\\build-output\\SQLonAir.Test.dll"}}
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.414, 29382794339, testhost.dll, AssemblyResolver.OnResolve: Mono.Cecil: Resolving assembly.
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.414, 29382796289, testhost.dll, AssemblyResolver.OnResolve: Mono.Cecil: Failed to load assembly.
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.634, 29384997858, testhost.dll,    NUnit3TestExecutor discovered 1 of 1 NUnit test cases
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.634, 29385000120, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"   NUnit3TestExecutor discovered 1 of 1 NUnit test cases"}}
+TpTrace Verbose: 0 : 20648, 12, 2021/12/16, 15:35:00.670, 29385357963, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: SQLonAir.Test.Tests.Test1.
+TpTrace Verbose: 0 : 20648, 12, 2021/12/16, 15:35:00.722, 29385874374, testhost.dll, TestExecutionRecorder.RecordEnd: test: SQLonAir.Test.Tests.Test1 execution completed.
+TpTrace Verbose: 0 : 20648, 12, 2021/12/16, 15:35:00.740, 29386056904, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: SQLonAir.Test.Tests.Test1.
+TpTrace Warning: 0 : 20648, 12, 2021/12/16, 15:35:00.745, 29386103095, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 20648, 12, 2021/12/16, 15:35:00.745, 29386105565, testhost.dll, TestRunCache: No test found corresponding to testResult 'Test1' in inProgress list.
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.749, 29386145593, testhost.dll, NUnit Adapter 3.17.0.0: Test execution complete
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.749, 29386146899, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"NUnit Adapter 3.17.0.0: Test execution complete"}}
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.754, 29386199966, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 20648, 4, 2021/12/16, 15:35:00.758, 29386233820, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.796, 29386613122, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:00.4089662","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"f8f349d5-ffa5-f2af-8bbd-cb7743480d59","FullyQualifiedName":"SQLonAir.Test.Tests.Test1","DisplayName":"Test1","ExecutorUri":"executor://NUnit3TestExecutor","Source":"C:\\Users\\auto1\\go\\src\\github.com\\eejai42\\sqlonair-dotnet-core\\SQLonAir.Test\\bin\\Release\\net5.0\\fine-code-coverage\\build-output\\SQLonAir.Test.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"Test1","Messages":[],"ComputerName":"AAL-LAPTOP5","Duration":"00:00:00.0337960","StartTime":"2021-12-16T21:35:00.6698875+00:00","EndTime":"2021-12-16T21:35:00.7035763+00:00","Properties":[]}],"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://nunit3testexecutor/"]}}
+TpTrace Verbose: 0 : 20648, 4, 2021/12/16, 15:35:00.796, 29386616384, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:35:00.797, 29386625951, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:54701 localEndPoint: [::ffff:127.0.0.1]:54702
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.797, 29386627338, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.797, 29386627778, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.798, 29386631303, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:054701
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.798, 29386631841, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:35:00.798, 29386633248, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.798, 29386633781, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 20648, 5, 2021/12/16, 15:35:00.798, 29386635885, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:054701, error:
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:35:00.799, 29386642028, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:35:00.799, 29386642762, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:054701
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:35:00.799, 29386642068, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Verbose: 0 : 20648, 5, 2021/12/16, 15:35:00.799, 29386643846, testhost.dll, TcpClientExtensions.MessageLoopAsync: exiting MessageLoopAsync remoteEndPoint: [::ffff:127.0.0.1]:54701 localEndPoint: [::ffff:127.0.0.1]:54702
+TpTrace Verbose: 0 : 20648, 1, 2021/12/16, 15:35:00.799, 29386643172, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 20648, 1, 2021/12/16, 15:35:00.799, 29386645838, testhost.dll, Testhost process exiting.

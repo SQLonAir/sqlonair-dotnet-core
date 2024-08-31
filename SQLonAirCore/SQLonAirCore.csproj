@@ -34,4 +34,8 @@ This can be called during startup - #if DEBUG.  That CSV can be used to generate
     <DocumentationFile>SQLonAirCore\SQLonAirCore.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SSoTme.OST.Lib" Version="2021.4.8.557" />
+  </ItemGroup>
+
 </Project>

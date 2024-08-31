@@ -1,4 +1,5 @@
 ﻿using SQLonAirCore.Attributes;
+using SSoTme.OST.Lib.CLIOptions;
 using System;
 using System.IO;
 using System.Reflection;
@@ -19,6 +20,21 @@ namespace entity_framework_test2
             AddCalculatedFields(sb, entityFrameworkAssembly);
             var csv = sb.ToString();
             File.WriteAllText(csvFileName, csv);
+            TranspileSOA(csvFileName);
+        }
+
+        private static void TranspileSOA(string csvFileName)
+        {
+            var returnValue = -1;
+            var handler = SSoTmeCLIHandler.CreateHandler(new string[] { });
+            if (!handler.SuppressTranspile) returnValue = handler.TranspileProject();
+
+            if (returnValue != 0)
+            {
+                Console.WriteLine("\n\nPress any key to continue.");
+                Console.ReadKey();
+            }
+            object o = returnValue;
         }
 
         private static void AddCalculatedFields(StringBuilder sb, Assembly asm)
